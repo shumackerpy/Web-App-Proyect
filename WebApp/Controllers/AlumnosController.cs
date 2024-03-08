@@ -1,51 +1,47 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using WebApp.Models;
-using System.Data.Entity;
-
 
 namespace WebApp.Controllers
 {
-    public class CursosController : Controller
+    public class AlumnosController : Controller
     {
-        // GET: Cursos
+        // GET: Alumnos
         public ActionResult Index()
         {
             using (DBMODELS context = new DBMODELS())
             {
-                return View(context.Cursos.ToList());
-            }
-            
+                return View(context.Alumnos.ToList());
+            };
         }
 
-        // GET: Cursos/Details/5
+        // GET: Alumnos/Details/5
         public ActionResult Details(int id)
         {
             using (DBMODELS context = new DBMODELS())
             {
-                return View(context.Cursos.Where(x => x.id == id).FirstOrDefault());
+                return View(context.Alumnos.Where(x => x.id == id).FirstOrDefault());
             }
         }
 
-        // GET: Cursos/Create
+        // GET: Alumnos/Create
         public ActionResult Create()
-        {                     
-               return View();          
+        {
+            return View();
         }
 
-        // POST: Cursos/Create
+        // POST: Alumnos/Create
         [HttpPost]
-        public ActionResult Create(Cursos cursos)
+        public ActionResult Create(Alumnos alumnos)
         {
             try
             {
                 using (DBMODELS context = new DBMODELS())
                 {
-                    context.Cursos.Add(cursos);
+                    context.Alumnos.Add(alumnos);
                     context.SaveChanges();
                 }
 
@@ -57,24 +53,24 @@ namespace WebApp.Controllers
             }
         }
 
-        // GET: Cursos/Edit/5
+        // GET: Alumnos/Edit/5
         public ActionResult Edit(int id)
         {
             using (DBMODELS context = new DBMODELS())
             {
-                return View(context.Cursos.Where(x => x.id == id).FirstOrDefault());
+                return View(context.Alumnos.Where(x => x.id == id).FirstOrDefault());
             }
         }
 
-        // POST: Cursos/Edit/5
+        // POST: Alumnos/Edit/5
         [HttpPost]
-        public ActionResult Edit(int id, Cursos cursos)
+        public ActionResult Edit(int id, Alumnos alumnos)
         {
             try
             {
                 using (DBMODELS context = new DBMODELS())
                 {
-                    context.Entry(cursos).State = System.Data.Entity.EntityState.Modified;
+                    context.Entry(alumnos).State = System.Data.Entity.EntityState.Modified;
                     context.SaveChanges();
                 }
 
@@ -86,16 +82,16 @@ namespace WebApp.Controllers
             }
         }
 
-        // GET: Cursos/Delete/5
+        // GET: Alumnos/Delete/5
         public ActionResult Delete(int id)
         {
             using (DBMODELS context = new DBMODELS())
             {
-                return View(context.Cursos.Where(x => x.id == id).FirstOrDefault());
+                return View(context.Alumnos.Where(x => x.id == id).FirstOrDefault());
             }
         }
 
-        // POST: Cursos/Delete/5
+        // POST: Alumnos/Delete/5
         [HttpPost]
         public ActionResult Delete(int id, FormCollection collection)
         {
@@ -104,8 +100,8 @@ namespace WebApp.Controllers
                 // TODO: Add delete logic here
                 using (DBMODELS context = new DBMODELS())
                 {
-                    Cursos cursos = context.Cursos.Where(x => x.id == id).FirstOrDefault();
-                    context.Cursos.Remove(cursos);
+                    Alumnos Alumnos = context.Alumnos.Where(x => x.id == id).FirstOrDefault();
+                    context.Alumnos.Remove(Alumnos);
                     context.SaveChanges();
                 }
                 return RedirectToAction("Index");

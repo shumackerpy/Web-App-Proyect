@@ -1,18 +1,22 @@
-﻿@model WebApp.Models.Cursos
+﻿﻿@model WebApp.Models.Cursos
 
 @{
     ViewBag.Title = "Create";
 }
 
-<h2>Create</h2>
+<br />
+
+<div class="text-center">
+    <h2>Crear Curso</h2>
+</div>
 
 
-@using (Html.BeginForm()) 
+@using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
-    
+
     <div class="form-horizontal">
-        <h4>Cursos</h4>
+
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         <div class="form-group">
@@ -23,11 +27,21 @@
             </div>
         </div>
 
-        <div class="form-group">
+        <div>
             @Html.LabelFor(model => model.tipo, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.tipo, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.tipo, "", new { @class = "text-danger" })
+                <div class="form-check form-check-inline">
+                    <input type="radio" id="Taller" name="tipo" value="taller" class="form-check-input" />
+                    <label for="Taller" class="form-check-label">Taller</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" id="Curso" name="tipo" value="curso" class="form-check-input" />
+                    <label for="Curso" class="form-check-label">Curso</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" id="Diplomado" name="tipo" value="diplomado" class="form-check-input" />
+                    <label for="Diplomado" class="form-check-label">Diplomado</label>
+                </div>
             </div>
         </div>
 
@@ -50,7 +64,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.fecha_inicio, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.fecha_inicio, new { htmlAttributes = new { @class = "form-control" } })
+                <input type="date" id="fecha_inicio" name="fecha_inicio" class="form-control" />
                 @Html.ValidationMessageFor(model => model.fecha_inicio, "", new { @class = "text-danger" })
             </div>
         </div>
@@ -58,22 +72,23 @@
         <div class="form-group">
             @Html.LabelFor(model => model.fecha_termino, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.fecha_termino, new { htmlAttributes = new { @class = "form-control" } })
+                <input type="date" id="fecha_termino" name="fecha_termino" class="form-control" />
                 @Html.ValidationMessageFor(model => model.fecha_termino, "", new { @class = "text-danger" })
             </div>
         </div>
+        <br />
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Create" class="btn btn-default" />
+                <input type="submit" value="Create" class="btn btn-success" /> |
+                @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-warning" })
             </div>
         </div>
+
     </div>
 }
 
-<div>
-    @Html.ActionLink("Back to List", "Index")
-</div>
+
 
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")

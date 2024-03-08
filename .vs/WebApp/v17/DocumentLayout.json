@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Villar\\source\\repos\\WebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|c:\\users\\villar\\source\\repos\\webapp\\webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|c:\\users\\villar\\source\\repos\\webapp\\webapp\\controllers\\alumnoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\alumnoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|C:\\Users\\Villar\\source\\repos\\WebApp\\webapp\\models\\cursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\cursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|C:\\Users\\Villar\\source\\repos\\WebApp\\webapp\\views\\alumnos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\alumnos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|C:\\Users\\Villar\\source\\repos\\WebApp\\webapp\\controllers\\cursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\cursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|C:\\Users\\Villar\\source\\repos\\WebApp\\webapp\\views\\alumnos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\alumnos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|C:\\Users\\Villar\\source\\repos\\WebApp\\webapp\\views\\alumnos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\alumnos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|C:\\Users\\Villar\\source\\repos\\WebApp\\webapp\\views\\alumnos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\alumnos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|C:\\Users\\Villar\\source\\repos\\WebApp\\webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|C:\\Users\\Villar\\source\\repos\\WebApp\\webapp\\views\\cursos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -23,32 +39,56 @@
       "RelativeMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\cursos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|C:\\Users\\Villar\\source\\repos\\WebApp\\webapp\\views\\cursos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\cursos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|C:\\Users\\Villar\\source\\repos\\WebApp\\webapp\\views\\alumnos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\alumnos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|C:\\Users\\Villar\\source\\repos\\WebApp\\webapp\\models\\alumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\alumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|C:\\Users\\Villar\\source\\repos\\WebApp\\webapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|C:\\Users\\Villar\\source\\repos\\WebApp\\webapp\\views\\cursos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\cursos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|C:\\Users\\Villar\\source\\repos\\WebApp\\webapp\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|C:\\Users\\Villar\\source\\repos\\WebApp\\webapp\\views\\cursos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\cursos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|C:\\Users\\Villar\\source\\repos\\WebApp\\webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|C:\\Users\\Villar\\source\\repos\\WebApp\\webapp\\servicios\\correoservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|solutionrelative:webapp\\servicios\\correoservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|C:\\Users\\Villar\\source\\repos\\WebApp\\webapp\\models\\dbmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\dbmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|C:\\Users\\Villar\\source\\repos\\WebApp\\webapp\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|C:\\Users\\Villar\\source\\repos\\WebApp\\webapp\\models\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|C:\\Users\\Villar\\source\\repos\\WebApp\\webapp\\views\\inicio\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\inicio\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|C:\\Users\\Villar\\source\\repos\\WebApp\\webapp\\views\\cursos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\cursos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|C:\\Users\\Villar\\source\\repos\\WebApp\\webapp\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|solutionrelative:webapp\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|C:\\Users\\Villar\\source\\repos\\WebApp\\webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB03BBD0-3DB8-429A-967F-2A42457AAB97}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,68 +98,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAB6AAAA",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Alumnos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Alumnos\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Alumnos\\Delete.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Alumnos\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-05T18:59:33.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-07T18:57:32.722Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Cursos\\Edit.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Cursos\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Cursos\\Edit.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Cursos\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Alumnos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Alumnos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Alumnos\\Edit.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Alumnos\\Edit.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-05T18:37:41.049Z"
+              "WhenOpened": "2024-03-07T18:56:59.573Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Cursos\\Create.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Cursos\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Cursos\\Create.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Cursos\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Alumnos\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Alumnos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Alumnos\\Create.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Alumnos\\Create.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-05T18:36:35.618Z"
+              "WhenOpened": "2024-03-07T18:56:22.155Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Cursos\\Details.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Cursos\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Cursos\\Details.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Cursos\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Alumnos\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Alumnos\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Alumnos\\Details.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Alumnos\\Details.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-05T18:35:57.407Z"
+              "WhenOpened": "2024-03-07T18:55:53.922Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Cursos\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Cursos\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Cursos\\Index.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Cursos\\Index.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-05T18:29:43.887Z"
+              "DocumentIndex": 0,
+              "Title": "AlumnosController.cs",
+              "DocumentMoniker": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Controllers\\AlumnosController.cs",
+              "RelativeDocumentMoniker": "WebApp\\Controllers\\AlumnosController.cs",
+              "ToolTip": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Controllers\\AlumnosController.cs",
+              "RelativeToolTip": "WebApp\\Controllers\\AlumnosController.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAmwFUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T18:39:16.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Alumnos.cs",
+              "DocumentMoniker": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Models\\Alumnos.cs",
+              "RelativeDocumentMoniker": "WebApp\\Models\\Alumnos.cs",
+              "ToolTip": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Models\\Alumnos.cs",
+              "RelativeToolTip": "WebApp\\Models\\Alumnos.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwCgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T18:35:41.115Z"
             },
             {
               "$type": "Document",
@@ -129,48 +181,73 @@
               "RelativeDocumentMoniker": "WebApp\\Controllers\\CursosController.cs",
               "ToolTip": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Controllers\\CursosController.cs",
               "RelativeToolTip": "WebApp\\Controllers\\CursosController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAfAAAA",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAuwHMAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-05T15:33:41.23Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Cursos.cs",
-              "DocumentMoniker": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Models\\Cursos.cs",
-              "RelativeDocumentMoniker": "WebApp\\Models\\Cursos.cs",
-              "ToolTip": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Models\\Cursos.cs",
-              "RelativeToolTip": "WebApp\\Models\\Cursos.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAA5wCcAAABXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T15:16:50.596Z"
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Cursos\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Cursos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Cursos\\Index.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Cursos\\Index.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAADcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T18:29:43.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Cursos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Cursos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Cursos\\Edit.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Cursos\\Edit.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAE8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T18:37:41.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Cursos\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Cursos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Cursos\\Create.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Cursos\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T18:36:35.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T18:59:33.824Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "DBMODEL.edmx [Diagram1]",
-              "DocumentMoniker": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Models\\DBMODEL.edmx",
-              "RelativeDocumentMoniker": "WebApp\\Models\\DBMODEL.edmx",
-              "ToolTip": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Models\\DBMODEL.edmx [Diagram1]",
-              "RelativeToolTip": "WebApp\\Models\\DBMODEL.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-03-05T15:10:23.645Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Cursos\\Delete.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Cursos\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Cursos\\Delete.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Cursos\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Alumnos\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Alumnos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Alumnos\\Index.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Alumnos\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-05T18:38:29.907Z"
+              "WhenOpened": "2024-03-07T18:51:18.56Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "WebApp\\Models\\ApplicationDbContext.cs",
@@ -182,19 +259,102 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CorreoServicio.cs",
+              "DocumentMoniker": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Servicios\\CorreoServicio.cs",
+              "RelativeDocumentMoniker": "WebApp\\Servicios\\CorreoServicio.cs",
+              "ToolTip": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Servicios\\CorreoServicio.cs",
+              "RelativeToolTip": "WebApp\\Servicios\\CorreoServicio.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAuwDAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T15:59:00.908Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-07T13:16:02.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "UsuarioDTO.cs",
               "DocumentMoniker": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Models\\UsuarioDTO.cs",
               "RelativeDocumentMoniker": "WebApp\\Models\\UsuarioDTO.cs",
               "ToolTip": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Models\\UsuarioDTO.cs",
               "RelativeToolTip": "WebApp\\Models\\UsuarioDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-29T14:41:16.26Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Cursos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Cursos\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Cursos\\Delete.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Cursos\\Delete.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAAkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T18:38:29.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DBMODEL.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Models\\DBMODEL.edmx",
+              "RelativeDocumentMoniker": "WebApp\\Models\\DBMODEL.edmx",
+              "ToolTip": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Models\\DBMODEL.edmx [Diagram1]",
+              "RelativeToolTip": "WebApp\\Models\\DBMODEL.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-03-07T16:28:55.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Inicio\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Inicio\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Inicio\\Login.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Inicio\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-07T13:20:14.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "WebApp\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "WebApp\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T13:22:19.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Cursos\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Cursos\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Views\\Cursos\\Details.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Cursos\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T18:35:57.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Villar\\source\\repos\\WebApp\\WebApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "WebApp\\Controllers\\HomeController.cs",

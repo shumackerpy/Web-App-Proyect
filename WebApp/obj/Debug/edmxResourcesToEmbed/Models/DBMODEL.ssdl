@@ -1,5 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="DBPRUEBAModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Alumnos">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre_completo" Type="varchar" MaxLength="255" />
+    <Property Name="cedula" Type="varchar" MaxLength="20" />
+    <Property Name="email" Type="varchar" MaxLength="255" />
+    <Property Name="departamento" Type="varchar" MaxLength="255" />
+    <Property Name="telefono" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="Asistencia">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="id_alumno" Type="int" />
+    <Property Name="id_curso" Type="int" />
+    <Property Name="fecha" Type="date" />
+    <Property Name="estado" Type="varchar" MaxLength="20" />
+  </EntityType>
   <EntityType Name="Cursos">
     <Key>
       <PropertyRef Name="id" />
@@ -11,6 +32,15 @@
     <Property Name="horario" Type="varchar" MaxLength="255" />
     <Property Name="fecha_inicio" Type="date" />
     <Property Name="fecha_termino" Type="date" />
+  </EntityType>
+  <EntityType Name="Historico_Cursos_Alumnos">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="id_alumno" Type="int" />
+    <Property Name="id_curso" Type="int" />
+    <Property Name="fecha_registro" Type="date" />
   </EntityType>
   <EntityType Name="tabla">
     <Key>
@@ -33,9 +63,76 @@
     <Property Name="Confirmado" Type="bit" />
     <Property Name="Token" Type="varchar" MaxLength="200" />
   </EntityType>
+  <Association Name="FK__Asistenci__id_al__5165187F">
+    <End Role="Alumnos" Type="Self.Alumnos" Multiplicity="0..1" />
+    <End Role="Asistencia" Type="Self.Asistencia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Alumnos">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Asistencia">
+        <PropertyRef Name="id_alumno" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Asistenci__id_cu__52593CB8">
+    <End Role="Cursos" Type="Self.Cursos" Multiplicity="0..1" />
+    <End Role="Asistencia" Type="Self.Asistencia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cursos">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Asistencia">
+        <PropertyRef Name="id_curso" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Historico__id_al__5535A963">
+    <End Role="Alumnos" Type="Self.Alumnos" Multiplicity="0..1" />
+    <End Role="Historico_Cursos_Alumnos" Type="Self.Historico_Cursos_Alumnos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Alumnos">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Historico_Cursos_Alumnos">
+        <PropertyRef Name="id_alumno" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Historico__id_cu__5629CD9C">
+    <End Role="Cursos" Type="Self.Cursos" Multiplicity="0..1" />
+    <End Role="Historico_Cursos_Alumnos" Type="Self.Historico_Cursos_Alumnos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cursos">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Historico_Cursos_Alumnos">
+        <PropertyRef Name="id_curso" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
   <EntityContainer Name="DBPRUEBAModelStoreContainer">
+    <EntitySet Name="Alumnos" EntityType="Self.Alumnos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Asistencia" EntityType="Self.Asistencia" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Cursos" EntityType="Self.Cursos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Historico_Cursos_Alumnos" EntityType="Self.Historico_Cursos_Alumnos" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="tabla" EntityType="Self.tabla" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="USUARIO" EntityType="Self.USUARIO" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Asistenci__id_al__5165187F" Association="Self.FK__Asistenci__id_al__5165187F">
+      <End Role="Alumnos" EntitySet="Alumnos" />
+      <End Role="Asistencia" EntitySet="Asistencia" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Asistenci__id_cu__52593CB8" Association="Self.FK__Asistenci__id_cu__52593CB8">
+      <End Role="Cursos" EntitySet="Cursos" />
+      <End Role="Asistencia" EntitySet="Asistencia" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Historico__id_al__5535A963" Association="Self.FK__Historico__id_al__5535A963">
+      <End Role="Alumnos" EntitySet="Alumnos" />
+      <End Role="Historico_Cursos_Alumnos" EntitySet="Historico_Cursos_Alumnos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Historico__id_cu__5629CD9C" Association="Self.FK__Historico__id_cu__5629CD9C">
+      <End Role="Cursos" EntitySet="Cursos" />
+      <End Role="Historico_Cursos_Alumnos" EntitySet="Historico_Cursos_Alumnos" />
+    </AssociationSet>
   </EntityContainer>
 </Schema>

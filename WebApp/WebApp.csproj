@@ -155,6 +155,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AlumnosController.cs" />
     <Compile Include="Controllers\CursosController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\InicioController.cs" />
@@ -162,7 +163,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Alumnos.cs">
+      <DependentUpon>DBMODEL.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\ApplicationDbContext.cs" />
+    <Compile Include="Models\Asistencia.cs">
+      <DependentUpon>DBMODEL.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\CorreoDTO.cs" />
     <Compile Include="Models\Cursos.cs">
       <DependentUpon>DBMODEL.tt</DependentUpon>
@@ -181,6 +188,9 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DBMODEL.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Historico_Cursos_Alumnos.cs">
+      <DependentUpon>DBMODEL.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\tabla.cs">
       <DependentUpon>DBMODEL.tt</DependentUpon>
@@ -273,6 +283,11 @@
     <Content Include="Views\Cursos\Create.cshtml" />
     <Content Include="Views\Cursos\Edit.cshtml" />
     <Content Include="Views\Cursos\Delete.cshtml" />
+    <Content Include="Views\Alumnos\Index.cshtml" />
+    <Content Include="Views\Alumnos\Details.cshtml" />
+    <Content Include="Views\Alumnos\Create.cshtml" />
+    <Content Include="Views\Alumnos\Edit.cshtml" />
+    <Content Include="Views\Alumnos\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

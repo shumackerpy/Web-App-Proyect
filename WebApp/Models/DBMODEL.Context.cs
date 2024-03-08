@@ -25,7 +25,10 @@ namespace WebApp.Models
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<Alumnos> Alumnos { get; set; }
+        public virtual DbSet<Asistencia> Asistencia { get; set; }
         public virtual DbSet<Cursos> Cursos { get; set; }
+        public virtual DbSet<Historico_Cursos_Alumnos> Historico_Cursos_Alumnos { get; set; }
         public virtual DbSet<tabla> tabla { get; set; }
         public virtual DbSet<USUARIO> USUARIO { get; set; }
     }

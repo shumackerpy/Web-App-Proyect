@@ -13,10 +13,10 @@ namespace WebApp.Models
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
 
-    public partial class Cursos
+    public partial class Alumnos
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Cursos()
+        public Alumnos()
         {
             this.Asistencia = new HashSet<Asistencia>();
             this.Historico_Cursos_Alumnos = new HashSet<Historico_Cursos_Alumnos>();
@@ -24,30 +24,22 @@ namespace WebApp.Models
 
         [Display(Name = "#")]
         public int id { get; set; }
-
+                
         [Display(Name = "Nombre")]
-        public string nombre { get; set; }
+        public string nombre_completo { get; set; }
 
-        [Display(Name = "Tipo")]
-        public string tipo { get; set; }
+        [Display(Name = "Cedula")]
+        public string cedula { get; set; }
 
-        [Display(Name = "Titulo")]
-        public string titulo_obtenido { get; set; }
+        [Display(Name = "Email")]
+        public string email { get; set; }
 
-        [Display(Name = "Horario")]
-        public string horario { get; set; }
+        [Display(Name = "Departamento")]
+        public string departamento { get; set; }
 
-        [Display(Name = "Fecha de inicio")]
-        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:MM/dd/yyyy}")]
-        [DataType(DataType.DateTime)]
+        [Display(Name = "Telefono")]
+        public string telefono { get; set; }
 
-        public Nullable<System.DateTime> fecha_inicio { get; set; }
-
-        [Display(Name = "Fecha de termino")]
-        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:MM/dd/yyyy}")]
-        [DataType(DataType.DateTime)]
-        public Nullable<System.DateTime> fecha_termino { get; set; }
-    
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Asistencia> Asistencia { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

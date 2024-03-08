@@ -1,5 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="DBPRUEBAModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Alumnos">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre_completo" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="cedula" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="email" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="departamento" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="telefono" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Asistencia" Relationship="Self.FK__Asistenci__id_al__5165187F" FromRole="Alumnos" ToRole="Asistencia" />
+    <NavigationProperty Name="Historico_Cursos_Alumnos" Relationship="Self.FK__Historico__id_al__5535A963" FromRole="Alumnos" ToRole="Historico_Cursos_Alumnos" />
+  </EntityType>
+  <EntityType Name="Asistencia">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="id_alumno" Type="Int32" />
+    <Property Name="id_curso" Type="Int32" />
+    <Property Name="fecha" Type="DateTime" Precision="0" />
+    <Property Name="estado" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Alumnos" Relationship="Self.FK__Asistenci__id_al__5165187F" FromRole="Asistencia" ToRole="Alumnos" />
+    <NavigationProperty Name="Cursos" Relationship="Self.FK__Asistenci__id_cu__52593CB8" FromRole="Asistencia" ToRole="Cursos" />
+  </EntityType>
   <EntityType Name="Cursos">
     <Key>
       <PropertyRef Name="id" />
@@ -11,6 +36,19 @@
     <Property Name="horario" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
     <Property Name="fecha_inicio" Type="DateTime" Precision="0" />
     <Property Name="fecha_termino" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Asistencia" Relationship="Self.FK__Asistenci__id_cu__52593CB8" FromRole="Cursos" ToRole="Asistencia" />
+    <NavigationProperty Name="Historico_Cursos_Alumnos" Relationship="Self.FK__Historico__id_cu__5629CD9C" FromRole="Cursos" ToRole="Historico_Cursos_Alumnos" />
+  </EntityType>
+  <EntityType Name="Historico_Cursos_Alumnos">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="id_alumno" Type="Int32" />
+    <Property Name="id_curso" Type="Int32" />
+    <Property Name="fecha_registro" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Alumnos" Relationship="Self.FK__Historico__id_al__5535A963" FromRole="Historico_Cursos_Alumnos" ToRole="Alumnos" />
+    <NavigationProperty Name="Cursos" Relationship="Self.FK__Historico__id_cu__5629CD9C" FromRole="Historico_Cursos_Alumnos" ToRole="Cursos" />
   </EntityType>
   <EntityType Name="tabla">
     <Key>
@@ -33,9 +71,76 @@
     <Property Name="Confirmado" Type="Boolean" />
     <Property Name="Token" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
   </EntityType>
+  <Association Name="FK__Asistenci__id_al__5165187F">
+    <End Role="Alumnos" Type="Self.Alumnos" Multiplicity="0..1" />
+    <End Role="Asistencia" Type="Self.Asistencia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Alumnos">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Asistencia">
+        <PropertyRef Name="id_alumno" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Historico__id_al__5535A963">
+    <End Role="Alumnos" Type="Self.Alumnos" Multiplicity="0..1" />
+    <End Role="Historico_Cursos_Alumnos" Type="Self.Historico_Cursos_Alumnos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Alumnos">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Historico_Cursos_Alumnos">
+        <PropertyRef Name="id_alumno" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Asistenci__id_cu__52593CB8">
+    <End Role="Cursos" Type="Self.Cursos" Multiplicity="0..1" />
+    <End Role="Asistencia" Type="Self.Asistencia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cursos">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Asistencia">
+        <PropertyRef Name="id_curso" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Historico__id_cu__5629CD9C">
+    <End Role="Cursos" Type="Self.Cursos" Multiplicity="0..1" />
+    <End Role="Historico_Cursos_Alumnos" Type="Self.Historico_Cursos_Alumnos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cursos">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Historico_Cursos_Alumnos">
+        <PropertyRef Name="id_curso" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
   <EntityContainer Name="DBMODELS" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Alumnos" EntityType="Self.Alumnos" />
+    <EntitySet Name="Asistencia" EntityType="Self.Asistencia" />
     <EntitySet Name="Cursos" EntityType="Self.Cursos" />
+    <EntitySet Name="Historico_Cursos_Alumnos" EntityType="Self.Historico_Cursos_Alumnos" />
     <EntitySet Name="tabla" EntityType="Self.tabla" />
     <EntitySet Name="USUARIO" EntityType="Self.USUARIO" />
+    <AssociationSet Name="FK__Asistenci__id_al__5165187F" Association="Self.FK__Asistenci__id_al__5165187F">
+      <End Role="Alumnos" EntitySet="Alumnos" />
+      <End Role="Asistencia" EntitySet="Asistencia" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Historico__id_al__5535A963" Association="Self.FK__Historico__id_al__5535A963">
+      <End Role="Alumnos" EntitySet="Alumnos" />
+      <End Role="Historico_Cursos_Alumnos" EntitySet="Historico_Cursos_Alumnos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Asistenci__id_cu__52593CB8" Association="Self.FK__Asistenci__id_cu__52593CB8">
+      <End Role="Cursos" EntitySet="Cursos" />
+      <End Role="Asistencia" EntitySet="Asistencia" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Historico__id_cu__5629CD9C" Association="Self.FK__Historico__id_cu__5629CD9C">
+      <End Role="Cursos" EntitySet="Cursos" />
+      <End Role="Historico_Cursos_Alumnos" EntitySet="Historico_Cursos_Alumnos" />
+    </AssociationSet>
   </EntityContainer>
 </Schema>

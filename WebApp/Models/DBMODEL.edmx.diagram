@@ -4,10 +4,17 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="121071a6a8f64e6c8687400295d77964" Name="Diagram1">
-        <EntityTypeShape EntityType="DBPRUEBAModel.Cursos" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="DBPRUEBAModel.tabla" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="DBPRUEBAModel.USUARIO" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+      <Diagram DiagramId="4f7697b52d014923bd55911fc52ae9ef" Name="Diagram1">
+        <EntityTypeShape EntityType="DBPRUEBAModel.Alumnos" Width="1.5" PointX="0.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBPRUEBAModel.Asistencia" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBPRUEBAModel.Cursos" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBPRUEBAModel.Historico_Cursos_Alumnos" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBPRUEBAModel.tabla" Width="1.5" PointX="5.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBPRUEBAModel.USUARIO" Width="1.5" PointX="6.25" PointY="4.625" IsExpanded="true" />
+        <AssociationConnector Association="DBPRUEBAModel.FK__Asistenci__id_al__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="DBPRUEBAModel.FK__Historico__id_al__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="DBPRUEBAModel.FK__Asistenci__id_cu__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="DBPRUEBAModel.FK__Historico__id_cu__5629CD9C" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
